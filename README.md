@@ -55,16 +55,18 @@ Types of Users: User and Admin
 # OUTPUT IMAGES
 
 ## Home Page
-
+![HomePage](https://github.com/Vigneshwaran2605/Presidio_Task/assets/91144302/d438537e-7f8a-4944-9646-84a49468ef51)
+![Register Login](https://github.com/Vigneshwaran2605/Presidio_Task/assets/91144302/11ede541-60e7-4fa9-895c-c2fd0e35c478)
 
 ## User Home
-
+![User_home](https://github.com/Vigneshwaran2605/Presidio_Task/assets/91144302/0733f89b-80bc-4135-8125-409f1cfe65f0)
 ## User Functions
-
+![User_function](https://github.com/Vigneshwaran2605/Presidio_Task/assets/91144302/ca84eddc-1429-4183-b567-0c2802196512)
 
 ## Admin Home
-
+![Admin_Home](https://github.com/Vigneshwaran2605/Presidio_Task/assets/91144302/0d211816-da05-497a-b483-33388ff74cf8)
 ## Admin Functions
+![Admin_function](https://github.com/Vigneshwaran2605/Presidio_Task/assets/91144302/76162339-9096-4883-9fd0-99bb063a90cd)
 
 
 
