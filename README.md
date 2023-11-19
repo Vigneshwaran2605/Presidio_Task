@@ -1,36 +1,31 @@
 # Flight Ticket Booking(AEROBOOK)
 
-This project is developed by using Django as backend and HTML as frontend. Django files are stored inProject1/backend/users/ and HTML files are stored in the Project1/backend/users/templates. My output is recorded and uploaded in https://drive.google.com/drive/folders/1g9-OZ3gTnSb47DMAu9hp4d7uuZndRwqs?usp=sharing
+This project is developed by using Django as backend and HTML as frontend. Django files are stored in backend/users/ and HTML files are stored in the backend/users/templates. My output is recorded and uploaded in https://drive.google.com/drive/folders/1bgGXO0WhqrNsTdHHkuB46pixG0xhVLQE?usp=sharing
 
 # To run this project in local server, follow the given steps:-
 
-1. Download the project by using command "git clone https://github.com/Vigneshwaran2605/DevRev_Project.git".
+1. Download the project by using command "git clone https://github.com/Vigneshwaran2605/Presidio_Task.git".
 2. Install Django by using the command "pip install django".
 3. Run the Django server with 'python manage.py runserver' command from the Project1\backend folder.
 4. The project runs on http://127.0.0.1:8000/ in your browser.
 
 # Problem Statement:-
 
-## Flight Ticket Booking 
+# Console-Based Flight Ticket Booking Application
 
-1. Type of Users : 
-a. User
-b. Admin
+Optional: Database: MySQL or any other of your choice
+Types of Users: User and Admin
 
-2. User Use Cases : 
-● Login
-● Sign up
-● Searching for flights based on date and time
-● Booking tickets on a flight based on availability (assuming the default
-seat count is 60)
-● My Booking -&gt; to list out all the bookings made by that user
-● Logout
+1. User Use Cases:
+● Login: Users should be able to log in, and the application should check credentials with the database or local storage (list or array).
+● Signup: Implement a signup feature to add new users to the database or an array.
+● Search Flight: Users should be able to search for flights using Flight name/ Date/ Flight Number
+● Book Tickets: Allow users to book tickets based on availability, assuming the default seat count is 60 for all flights.
 
-3. Admin Use Cases: 
-● Login (Seperate login for Admin)
-● Add Flights
-● Remove flights
-● View all the booking based on flight number and time
+2.Admin Use Cases:
+● Login: Admins should be able to log in.
+● Add Flights: Admins should have the ability to add new flights to the system.
+● View Bookings: Admins should be able to view bookings with the option to filter based on: Flight ID/Flight Name/ Date
 
 # Features of the Flight Ticket Booking(AEROBOOK):-
 
@@ -52,20 +47,24 @@ seat count is 60)
 2. Remove Flight -> Remove Flight by entering Flight ID.
 3. View Bookings -> View all the bookings made to the specific Flight ID , it list as the username and seats booked.
 4. Show Flight -> Show the list of all the flights.
+
+## Updated
+1. Multiple Ticket Booking
+2. Search by From & To locations.
+
 # OUTPUT IMAGES
 
 ## Home Page
-![Home](https://github.com/Vigneshwaran2605/DevRev_Project/assets/91144302/e9e00dcf-5736-4178-b7c2-98b55977646b)
-![Login Register](https://github.com/Vigneshwaran2605/DevRev_Project/assets/91144302/07b29ad9-106a-4afe-a40a-737375aeb08a)
+
 
 ## User Home
-![User_home](https://github.com/Vigneshwaran2605/DevRev_Project/assets/91144302/7082f312-e45c-47f1-8359-000af366e874)
+
 ## User Functions
-![User_side](https://github.com/Vigneshwaran2605/DevRev_Project/assets/91144302/e4c50fe7-8082-48d9-b423-986590c86155)
+
 
 ## Admin Home
-![Admin_home](https://github.com/Vigneshwaran2605/DevRev_Project/assets/91144302/cdb3c74e-93ee-418b-8cfb-0bb18484365f)
+
 ## Admin Functions
-![Admin_side](https://github.com/Vigneshwaran2605/DevRev_Project/assets/91144302/8a866594-314e-4b28-b09e-9b42601b5332)
+
 
 
